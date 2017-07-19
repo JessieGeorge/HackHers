@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> Hackhers Graffiti Board </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<center> <img src = "Images/HackhersLogo.bmp" /> </center>
+<center> 
+<p> 
+<button id = "red" class = "buttons" onclick = "setColor('red')" > </button> 
+<button id = "yellow" class = "buttons" onclick = "setColor('yellow')" > </button>
+<button id = "blue" class = "buttons" onclick = "setColor('blue')" > </button>
+<button id = "green" class = "buttons" onclick = "setColor('green')" > </button>
+<button id = "orange" class = "buttons" onclick = "setColor('orange')" > </button>
+<button id = "purple" class = "buttons" onclick = "setColor('purple')" > </button>
+<button id = "pink" class = "buttons" onclick = "setColor('pink')" > </button>
+<button id = "gray" class = "buttons" onclick = "setColor('gray')" > </button>
+
+<button id = "marker" class = "buttons" onclick = "useMarker()" > <img src ="Images/marker.png" width = "50" height = "50" /> </button>
+<button id = "mysteryBox" class = "buttons" onclick = "MysteryBox()" > <center> <img src ="Images/QuesMark.png" width = "50" height = "50" /> </center> </button>
+<button id = "eraser" class = "buttons" onclick = "useEraser()" > <img src ="Images/eraser.png" width = "50" height = "50" />  </button>
+
+<!--<a href = "#"> <button id = "download" class = "buttons" onclick = "downloadImage()" > </button> </a>-->
+<a href="#" class="button" id="btn-download"> Download </a>
+
+</p> 
+</center>
+
+<center> <canvas id = "myCanvas" width = "800px" height = "500px"> </canvas> </center>
+<script src = "script.js"> </script>
+</body>
+
+</html>
